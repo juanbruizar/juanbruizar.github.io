@@ -1,0 +1,40 @@
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+:root {
+  --bs-body-bg: black;
+}
+h1, article, ul {
+
+  text-align: center;
+  text-decoration-color: black;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+
+}
+h2,h3{
+  text-decoration-line: underline;
+}
+body {
+  background-image: url(/img/londres.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+li {
+  color: yellow;
+  text-align: left;
+
+}
+header {
+  text-align: center;
+}
+p {
+  text-align: center;
+  text-decoration-color: black;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+
+}
+img{
+  text-align: center;
+}
